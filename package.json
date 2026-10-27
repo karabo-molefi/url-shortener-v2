@@ -1,18 +1,14 @@
 {
   "name": "url-shortener",
-  "homepage": "https://karabo-molefi.github.io/url-shortener-v2",
   "private": true,
   "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
