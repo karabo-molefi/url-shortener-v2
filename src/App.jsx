@@ -1,8 +1,7 @@
 import { useState } from 'react'
 
 const TOKEN = import.meta.env.VITE_TINYURL_TOKEN
-const LEGACY_ENDPOINT = import.meta.env.DEV
-  ? '/tinyurl'
+const LEGACY_ENDPOINT = '/tinyurl'  ? '/tinyurl'
   : 'https://tinyurl.com/api-create.php'
 
 const SHRINK_MS = 700

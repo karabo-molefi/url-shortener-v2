@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/tinyurl"
+  to = "https://tinyurl.com/api-create.php"
+  status = 200
+  force = true
